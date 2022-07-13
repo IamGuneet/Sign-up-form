@@ -12,9 +12,18 @@ body{
     margin: 0px;
 }
 .left{
+    display: flex;
+    justify-content: center;
     background-image: url("./beach.jpg");
       width: 1600px;
 
+}
+.leftText{
+    font-family:norse Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: aliceblue;
+     opacity: 0.5;
+    margin-top: 250px;
 }
 
 .text{
