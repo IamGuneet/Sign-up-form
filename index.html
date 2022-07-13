@@ -5,35 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign up</title>
 </head>
 
 <body>
-    <h2>Form</h2>
-    <form action="#" method="post">
-        <div>
-            <label for="firstName">First Name:</label>
-             <input type="text" id="firstName">
+
+
+    <div class="border">
+
+
+        <div class="left">
+            <img src="" alt="logo" class="logo">
         </div>
-        <div>
-            <legend>dETAILS</legend>
-            weight:<input type="text">
+
+        <div class="text">
+            <div class="para">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.Sign up now to get started.</div>
+             <div class="heading">You know you want to.</div>
+             <div class="form">
+                <form action="#">
+                    <legend>Let's do this!</legend>
+                    <div>
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" name="firstname" id="firstname">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" name="lastname" id="lastname">
+                    </div>
+                    <div>
+                        
+                        <label for="mail">EMAIL</label>
+                        <input type="email" name="email" id="mail">    
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="number" name="phone" id="phone">
+                    </div>
+                    <div>
+                        
+                        <label for="pass">PASSWORD</label>
+                        <input type="password" name="pass" id="pass">
+                        <label for="confirmPass">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirmPass" id="confirmPass">
+                    </div>
+                </form>
+             </div>
+             <div class="end">
+                <button type="button"></button>
+                    <p class="link"> <a href=""></a> </p>                
+             </div>
+
         </div>
-        <label for="email">email-</label>
-        <input type="email" name="" id="mail">
-        <br>
-        <button type="submit">enter</button>
-        <textarea name="" id="" cols="30" rows="10">Type here</textarea>
-        <input type="number" name="" id="">
-        <select name="" id="">
-            <option value="">hi</option>
-            <option value="">hiff</option>
-            <option value="">hci</option>
-            <option value="">chi</option>
-            <option value="">i</option>
-        </select>
-        <button type="reset">reset</button>
-    </form>
+
+
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
